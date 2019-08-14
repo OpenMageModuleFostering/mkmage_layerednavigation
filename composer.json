@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/MKMage_LayeredNavigation",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Improve the Layered Navigation for your store with an Ajax-powered one.",
+    "authors": [
+    {
+        "name": "MKMage",
+        "email": "support@mkmage.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
