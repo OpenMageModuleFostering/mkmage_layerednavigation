@@ -28,6 +28,12 @@
             	<type>skin_css</type>
             	<name>css/mkmage/layerednavigation/layerednavigation.css</name>
 			</action>
+			<block type="core/text" name="jquery.noconflict">
+				<action method="setText">
+					<text><![CDATA[<script type="text/javascript">var $jq = jQuery.noConflict();</script>]]>
+					</text>
+				</action>
+			</block>
 		</reference>
 		
 		<reference name="catalog.leftnav">
@@ -66,6 +72,12 @@
             	<type>skin_css</type>
             	<name>css/mkmage/layerednavigation/layerednavigation.css</name>
 			</action>
+			<block type="core/text" name="jquery.noconflict">
+				<action method="setText">
+					<text><![CDATA[<script type="text/javascript">var $jq = jQuery.noConflict();</script>]]>
+					</text>
+				</action>
+			</block>
 		</reference>
 		
 		<reference name="catalogsearch.leftnav">

@@ -1,5 +1,6 @@
 <?php
-	$imgSrc = !empty(Mage::helper('layerednavigation')->getLoaderUrl()) ? Mage::helper('layerednavigation')->getLoaderUrl() : $this->getSkinUrl('images/mkmage/layerednavigation/rolling.svg');
+	$url = Mage::helper('layerednavigation')->getLoaderUrl();
+	$imgSrc = !empty($url) ? Mage::helper('layerednavigation')->getLoaderUrl() : $this->getSkinUrl('images/mkmage/layerednavigation/rolling.svg');
 ?>
 
 <div class="mkmage-overlay"></div>

@@ -69,8 +69,3 @@
 	display: inline-block;
     vertical-align: middle;
 }
-
-.catalog-category-view #narrow-by-list li.filter-active .filter-checkbox,
-.catalogsearch-result-index #narrow-by-list li.filter-active .filter-checkbox {
-	background-color: #CCCCCC;
-}

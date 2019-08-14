@@ -8,7 +8,7 @@
         <?php if ($_item->getCount() > 0): ?>
         <a href="<?php echo $this->urlEscape($_item->getUrl()) ?>">
         	<span class="filter-checkbox">
-        		<?php if($_item->isSelected()): ?><i class="fa fa-check"></i><?php endif; ?>
+        		<?php if($_item->isSelected()): ?><span style="line-height:10px;font-size: 18px; color: initial;">&#10003;</span><?php endif; ?>
 			</span>
 			<span class="filter-label"><?php echo $_item->getLabel() ?></span>
 		</a>

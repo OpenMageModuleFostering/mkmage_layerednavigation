@@ -20,7 +20,8 @@ class MKMage_LayeredNavigation_Helper_Data extends Mage_Core_Helper_Abstract {
 	
 	public function getLoaderUrl() {
 	
-		if(!empty(Mage::getStoreConfig('mkmage_layerednavigation/mkmage_layerednavigation_display/loader_image',Mage::app()->getStore()))) {
+		$check = Mage::getStoreConfig('mkmage_layerednavigation/mkmage_layerednavigation_display/loader_image',Mage::app()->getStore());
+		if(!empty($check)) {
 			return Mage::getBaseUrl() . 'media' . DS . 'theme' . DS . Mage::getStoreConfig('mkmage_layerednavigation/mkmage_layerednavigation_display/loader_image',Mage::app()->getStore());
 		} else {
 			return false;
