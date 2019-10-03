@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Improve the Layered Navigation for your store with an Ajax-powered one.
